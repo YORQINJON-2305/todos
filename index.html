@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="todolist__container">
+        <div class="todolist__adder">
+            <form class="todolist__form" method="post" autocomplete="off">
+                <div class="input__wrapper">
+                    <input type="text" autofocus required placeholder="Add your task..." minlength="3" spellcheck="true" autocomplete="work" class="todolist__input">
+                    <i id="clear__icon" class="fas fa-times"></i>
+                </div>
+                <button type="submit" class="todolist__button"> <i class="fas fa-plus"></i> Add Task</button>
+            </form>
+            <div class="todolist__controls">
+                <button class="delete__all">Delete All</button>
+            </div>
+        </div>
+        <div class="searchbar">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search" placeholder="Search todo">
+        </div>
+        <ul class="task__collection">
+            
+        </ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
