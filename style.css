@@ -84,6 +84,7 @@ body{
 .task__collection{
     height: 540px;
     overflow-y: auto;
+    padding-left: 0;
 }
 
 .task__collection > li{
@@ -180,18 +181,18 @@ body{
     align-items: center;
 }
 
-.searchbar > input{
+.searchbar__form > input{
     flex: 1;
     border: none;
     height: 50px;
     margin-right: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 18px;
     outline: none;
 }
 
-.searchbar > i{
+.searchbar__form > i{
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: gray;
 }
