@@ -181,7 +181,7 @@ body{
     align-items: center;
 }
 
-.searchbar__form > input{
+.searchbar > input{
     flex: 1;
     border: none;
     height: 50px;
@@ -191,7 +191,7 @@ body{
     outline: none;
 }
 
-.searchbar__form > i{
+.searchbar > i{
     font-size: 18px;
     margin-left: 20px;
     color: gray;
